@@ -31,10 +31,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/meypod/al-quran.git
-        commit: 8479455271ff338fe8612038c954f47088c257bc
+        commit: ac06a1debbe913a9a49ccbd5fbd40289ec011c4a
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.38.1
+        tag: 3.44.2
         dest: flutter
     build-commands:
       - flutter build linux --release --no-pub --suppress-analytics
